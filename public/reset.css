@@ -1,0 +1,45 @@
+/* Reset CSS */
+
+/* Reset margins and paddings for block elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, form, fieldset, ul, ol, dl, li, dd, dt {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset margins and paddings for inline elements */
+  a, abbr, acronym, address, cite, code, dfn, em, img, strong, th, var {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Reset link styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset borders for images */
+  img {
+    border: 0;
+  }
+  
+  /* Reset borders for table cells */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Reset button styles */
+  button, input[type="submit"], input[type="reset"], input[type="button"] {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    /* Additional button styles may be reset here */
+  }
+  
